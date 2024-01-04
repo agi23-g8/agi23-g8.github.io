@@ -1,11 +1,14 @@
 use yew::prelude::*;
 use yew_router::prelude::*;
 
+use crate::{cubes_traveller::CubesTraveller, peak_panic::PeakPanic};
+
 #[derive(Clone, Routable, PartialEq)]
 
 pub enum Route {
     #[at("/")]
     Home,
+
     #[at("/peak-panic-game")]
     PeakPanicGame,
     #[at("/cubes-traveller-game")]
@@ -25,8 +28,18 @@ pub fn app() -> Html {
 
 fn switch(routes: Route) -> Html {
     match routes {
-        Route::Home => html! { <h1>{"Home"}</h1> },
-        Route::PeakPanicGame => html! { <h1>{"Peak Panic Game"}</h1> },
-        Route::CubesTravellerGame => html! { <h1>{"Cubes Traveller Game"}</h1> },
+        Route::Home => html! { <Home /> },
+        Route::PeakPanicGame => html! { <PeakPanic /> },
+        Route::CubesTravellerGame => html! { <CubesTraveller /> },
+    }
+}
+
+/// This is the home page of the website
+/// This is where we will have the links töo the games,
+/// the team, and the contact page
+#[function_component(Home)]
+pub fn home() -> Html {
+    html! {
+        <h1>{"Home"}</h1>
     }
 }

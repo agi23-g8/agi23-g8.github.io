@@ -1,4 +1,6 @@
 mod app;
+mod cubes_traveller;
+mod peak_panic;
 
 use app::App;
 
