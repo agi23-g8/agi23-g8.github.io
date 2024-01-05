@@ -31,7 +31,7 @@ pub fn header() -> Html {
                 {team_button}
             </div>
 
-            <div class="navbar-center">
+            <div class="navbar-center px-5">
                 <p class="text-white text-3xl font-bold">{"AGI 23 Group 8"}</p>
             </div>
 
