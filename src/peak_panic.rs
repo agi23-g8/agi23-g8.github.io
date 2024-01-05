@@ -6,6 +6,6 @@ use yew_router::prelude::*;
 #[function_component(PeakPanic)]
 pub fn peak_panic() -> Html {
     html! {
-        <h1>{"Cubes Traveller"}</h1>
+        <h1>{"Peak Panic"}</h1>
     }
 }
