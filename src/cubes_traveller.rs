@@ -3,8 +3,6 @@
 use yew::prelude::*;
 use yew_router::prelude::*;
 
-use crate::carousel::Carousel;
-
 /// This is the page for our Peak Panic game
 /// Its a portolio page for the game
 /// It will contain a description of the game
