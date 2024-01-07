@@ -57,7 +57,7 @@ pub fn home() -> Html {
                 <p class="text-white text-3xl font-bold">{"Peak Panic"}</p>
             </div>
 
-            <div class="flex flex-grow rounded-lg justify-center items-center transition delay-50 ease-in-out duration-150 hover:opacity-60 hover:cursor-pointer" onclick={cubes_traveller} style="background-image: url('/img/cubes-traveller-splash.png'); background-size: cover; background-position: center;">
+            <div class="flex flex-grow rounded-lg justify-center items-center transition delay-50 ease-in-out duration-150 hover:opacity-60 hover:cursor-pointer" onclick={cubes_traveller} style="background-image: url('/img/cubes_traveller/game/splash.png'); background-size: cover; background-position: center;">
                 <p class="text-white text-3xl font-bold">{"Cube's Traveller"}</p>
             </div>
         </div>
