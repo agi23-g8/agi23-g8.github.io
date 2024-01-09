@@ -1,4 +1,4 @@
----
+--
 description: "The team behind the project"
 paige:
   search:
