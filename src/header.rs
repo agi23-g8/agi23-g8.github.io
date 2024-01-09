@@ -27,8 +27,8 @@ pub fn header() -> Html {
         <div class="navbar bg-base-100">
 
             <div class="navbar-start flex gap-4">
-                {home_button}
-                {team_button}
+                // {home_button}
+                // {team_button}
             </div>
 
             <div class="navbar-center px-5">

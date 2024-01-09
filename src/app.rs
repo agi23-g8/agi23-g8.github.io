@@ -53,14 +53,19 @@ pub fn home() -> Html {
         <>
         <Header />
         <div class="h-screen flex flex-col m-10 gap-10 xl:flex-row place-content-center">
-            <div class="flex flex-grow rounded-lg justify-center items-center transition delay-50 ease-in-out duration-150 hover:opacity-60 hover:cursor-pointer" onclick={peak_panic} style="background-image: url('/img/peak-panic-splash.png'); background-size: cover; background-position: center;">
+            <div class="flex flex-grow flex-1 rounded-lg justify-center items-center transition delay-50 ease-in-out duration-150 hover:opacity-60 hover:cursor-pointer" onclick={peak_panic} style="background-image: url('/img/peak-panic-splash.png'); background-size: cover; background-position: center;">
                 <p class="text-white text-3xl font-bold">{"Peak Panic"}</p>
             </div>
 
-            <div class="flex flex-grow rounded-lg justify-center items-center transition delay-50 ease-in-out duration-150 hover:opacity-60 hover:cursor-pointer" onclick={cubes_traveller} style="background-image: url('/img/cubes_traveller/game/splash.png'); background-size: cover; background-position: center;">
+            <div class="flex flex-grow flex-1 rounded-lg justify-center items-center transition delay-50 ease-in-out duration-150 hover:opacity-60 hover:cursor-pointer" onclick={cubes_traveller} style="background-image: url('/img/cubes_traveller/game/splash.png'); background-size: cover; background-position: center;">
                 <p class="text-white text-3xl font-bold">{"Cube's Traveller"}</p>
             </div>
         </div>
+
+        <Team />
+
         </>
+
+
     }
 }

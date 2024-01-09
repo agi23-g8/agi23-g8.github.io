@@ -7,8 +7,10 @@ use crate::{app::Route, header::Header};
 pub fn team() -> Html {
     html! {
         <>
-            <Header />
             <div class="flex flex-col m-10 gap-10 place-content-center">
+
+                <h1 class="text-5xl font-bold text-center">{"Team"}</h1>
+
                 <ProjectMember
                     name="David Åsberg"
                     image="/img/team/david.png"
@@ -114,7 +116,7 @@ fn project_member(props: &ProjectMemberProps) -> Html {
                 {third_area.map(|area| html! { <span class="bg-gray-100 text-gray-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">{area}</span> })}
             </div>
 
-            <p class="text-center text-pretty text-balance max-w-prose">{description}</p>
+            <p class="text-justify max-w-prose">{description}</p>
         </div>
     }
 }
