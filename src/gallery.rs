@@ -23,7 +23,7 @@ pub fn gallery(props: &GalleryProps) -> Html {
         .collect::<Html>();
 
     html! {
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div class="grid lg:grid-cols-2 gap-4 m-10">
             {images}
         </div>
     }
