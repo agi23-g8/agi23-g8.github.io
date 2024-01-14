@@ -40,7 +40,7 @@ pub fn peak_panic() -> Html {
 
             <Gallery images={images} />
 
-            <div class="w-full my-10 outline">
+            <div class="w-full my-10">
                 <iframe class="w-full" height="720" src="https://www.youtube.com/embed/tdM2Qb9TpLA?si=sjbEE5nl8Fr7QTU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=true></iframe>
             </div>
 
