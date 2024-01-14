@@ -39,7 +39,7 @@ pub fn cubes_traveller() -> Html {
             <Gallery images={images} />
 
             <div class="w-full my-10 outline">
-                <iframe class="w-full" height="720" src="https://www.youtube.com/embed/tdM2Qb9TpLA?si=sjbEE5nl8Fr7QTU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=true></iframe>
+                <iframe class="w-full" height="720" src="https://www.youtube.com/embed/nRWKN7nUR1c?si=rrIReJi69XXHtMy1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=true></iframe>
             </div>
 
             // Text about the game
