@@ -25,6 +25,24 @@ pub fn peak_panic() -> Html {
     .map(|s| s.to_string())
     .collect::<Vec<String>>();
 
+    let user_images = vec![
+        "img/peak_panic/users/pp_user_testing_1.jpg",
+        "img/peak_panic/users/pp_user_testing_2.jpg",
+        "img/peak_panic/users/pp_user_testing_3.jpg",
+        "img/peak_panic/users/pp_user_testing_4.jpg",
+        "img/peak_panic/users/pp_user_testing_5.jpg",
+        "img/peak_panic/users/pp_user_testing_6.jpg",
+        "img/peak_panic/users/pp_user_testing_7.jpg",
+        "img/peak_panic/users/pp_user_testing_8.jpg",
+        "img/peak_panic/users/pp_user_testing_9.jpg",
+        "img/peak_panic/users/pp_user_testing_10.jpg",
+        "img/peak_panic/users/pp_user_testing_11.jpg",
+        "img/peak_panic/users/pp_user_testing_12.jpg",
+    ]
+    .iter()
+    .map(|s| s.to_string())
+    .collect::<Vec<String>>();
+
     html! {
         <>
         <div class="container mx-auto flex flex-col my-6 px-4 sm:px-6 lg:px-8 items-center justify-items-center">
@@ -32,7 +50,7 @@ pub fn peak_panic() -> Html {
             <p class="text-xl my-3 text-center tracking-tight">{"An easily accessible, fast-paced, and fun racing game where you compete against your friends"}</p>
             // Image of the game
             <figure class="flex flex-col items-center">
-                <img class="rounded-lg shadow-lg" src="img/peak_panic/splash.png" alt="Cube's Traveller" />
+                <img class="rounded-lg shadow-lg" src="img/peak_panic/game/splash.png" alt="Peak Panic" />
             </figure>
 
             <h2 class="text-2xl my-5 font-extrabold text-center tracking-tight sm:text-3xl lg:text-5xl">{"A new way to play together"}</h2>
@@ -145,9 +163,10 @@ pub fn peak_panic() -> Html {
                 </p>
                 </div>
             </div>
+
+            <h2 class="text-2xl pt-10 font-extrabold tracking-tight sm:text-3xl lg:text-5xl">{"User Testing"}</h2>
+            <Gallery images={user_images} />
         </div>
-
-
         </>
     }
 }

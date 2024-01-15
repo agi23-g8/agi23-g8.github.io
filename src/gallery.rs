@@ -16,7 +16,7 @@ pub fn gallery(props: &GalleryProps) -> Html {
         .map(|(i, image)| {
             html! {
                 <div>
-                    <img class="h-auto max-w-full rounded-lg hover:scale-150 transition delay-50 ease-in-out duration-150" src={image.clone()} alt={"image"} />
+                    <img class="object-cover h-full rounded-lg hover:scale-150 transition delay-50 ease-in-out duration-150" src={image.clone()} alt={"image"} />
                 </div>
             }
         })
