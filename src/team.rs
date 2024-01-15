@@ -8,14 +8,14 @@ pub fn team() -> Html {
     html! {
         <>
             <h1 class="text-5xl font-bold text-center">{"Team"}</h1>
-            <div class="flex flex-row flex-wrap justify-center items-start m-10 gap-10">
+            <div class="flex flex-row flex-grow flex-wrap justify-center items-start m-10 gap-10">
                 <ProjectMember
                     name="David Åsberg"
                     image="/img/team/david.png"
                     badges={vec!["Graphics", "Interaction", "Game Design", "Networking", "Shaders", "Project Structure"]}
                     github="https://github.com/davidasberg"
                     linkedin="https://www.linkedin.com/in/david-aasberg/"
-                    description="I have worked on many areas of the project, but my main focus has been on the graphics and interaction. I have worked on the lighting, post-processing, and shaders. I have also worked on the interaction for each of the different controllers, and the networking to allow any mobile device to be used as a controller. Lastly, I have worked on the game design, and the overall structure of the project."
+                    description="I have worked on many areas of both projects, but my main focus has been on the graphics and interaction. I have worked on the lighting, post-processing, and shaders. I have also worked on the interaction for each of the different controllers, and the networking to allow any mobile device to be used as a controller. Lastly, I have worked on the game design, and the overall structure of the projects."
                 />
 
                 <ProjectMember
