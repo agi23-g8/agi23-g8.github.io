@@ -12,13 +12,34 @@ use crate::{carousel::Carousel, gallery::Gallery};
 #[function_component(CubesTraveller)]
 pub fn cubes_traveller() -> Html {
     let images = vec![
-        "img/cubes_traveller/game/splash.png".to_string(),
-        "img/cubes_traveller/game/cloud.jpg".to_string(),
-        "img/cubes_traveller/game/dusk.jpg".to_string(),
-        "img/cubes_traveller/game/night.jpg".to_string(),
-        "img/cubes_traveller/game/pumpkin_night.png".to_string(),
-        "img/cubes_traveller/game/leaning.jpg".to_string(),
-    ];
+        "img/cubes_traveller/game/splash.png",
+        "img/cubes_traveller/game/cloud.jpg",
+        "img/cubes_traveller/game/dusk.jpg",
+        "img/cubes_traveller/game/night.jpg",
+        "img/cubes_traveller/game/pumpkin_night.png",
+        "img/cubes_traveller/game/leaning.jpg",
+    ]
+    .iter()
+    .map(|x| x.to_string())
+    .collect::<Vec<String>>();
+
+    let user_images = vec![
+        "img/cubes_traveller/users/ct_user_testing_1.png",
+        "img/cubes_traveller/users/ct_user_testing_2.png",
+        "img/cubes_traveller/users/ct_user_testing_3.png",
+        "img/cubes_traveller/users/ct_user_testing_4.png",
+        "img/cubes_traveller/users/ct_user_testing_5.png",
+        "img/cubes_traveller/users/ct_user_testing_6.png",
+        "img/cubes_traveller/users/ct_user_testing_7.png",
+        "img/cubes_traveller/users/ct_user_testing_8.png",
+        "img/cubes_traveller/users/ct_user_testing_9.png",
+        "img/cubes_traveller/users/ct_user_testing_10.png",
+        "img/cubes_traveller/users/ct_user_testing_11.png",
+        "img/cubes_traveller/users/ct_user_testing_12.png",
+    ]
+    .iter()
+    .map(|x| x.to_string())
+    .collect::<Vec<String>>();
 
     html! {
         <>
@@ -120,6 +141,9 @@ pub fn cubes_traveller() -> Html {
                 </p>
                 </div>
             </div>
+
+            <h2 class="text-2xl pt-10 font-extrabold tracking-tight sm:text-3xl lg:text-5xl">{"User Testing"}</h2>
+            <Gallery images={user_images} />
         </div>
 
 
