@@ -12,14 +12,14 @@ use crate::gallery::Gallery;
 #[function_component(PeakPanic)]
 pub fn peak_panic() -> Html {
     let images = vec![
-        "img/peak_panic/pp_environment_1.jpg",
-        "img/peak_panic/pp_environment_2.jpg",
-        "img/peak_panic/pp_environment_3.jpg",
-        "img/peak_panic/pp_environment_4.jpg",
-        "img/peak_panic/pp_environment_5.jpg",
-        "img/peak_panic/pp_gameplay_1.png",
-        "img/peak_panic/pp_gameplay_2.png",
-        "img/peak_panic/splash.png",
+        "img/peak_panic/game/pp_environment_1.jpg",
+        "img/peak_panic/game/pp_environment_2.jpg",
+        "img/peak_panic/game/pp_environment_3.jpg",
+        "img/peak_panic/game/pp_environment_4.jpg",
+        "img/peak_panic/game/pp_environment_5.jpg",
+        "img/peak_panic/game/pp_gameplay_1.png",
+        "img/peak_panic/game/pp_gameplay_2.png",
+        "img/peak_panic/game/splash.png",
     ]
     .iter()
     .map(|s| s.to_string())
@@ -48,8 +48,14 @@ pub fn peak_panic() -> Html {
             <Gallery images={images} />
 
             <div class="w-full my-10">
-                <iframe class="w-full" height="720" src="https://www.youtube.com/embed/bw2AXm7WpNk?si=jdedPxbdXF9k8MEk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=true></iframe>
+                <iframe class="w-full" height="720" src="https://www.youtube.com/embed/51c44Hf4YiE?si=-8pyPqJQnxcBAw64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=true></iframe>
             </div>
+
+            <div class="w-full my-10">
+                <iframe class="w-full" height="720" src="https://www.youtube.com/embed/2qnbHwN2NGI?si=5xa1R8nF7Os0wZCa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=true></iframe>
+            </div>
+
+
 
             // Text about the game
             <div class="lg:columns-2 gap-10">
