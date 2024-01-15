@@ -7,17 +7,15 @@ use crate::{app::Route, header::Header};
 pub fn team() -> Html {
     html! {
         <>
-            <div class="flex flex-col m-10 gap-10 place-content-center">
-
-                <h1 class="text-5xl font-bold text-center">{"Team"}</h1>
-
+            <h1 class="text-5xl font-bold text-center">{"Team"}</h1>
+            <div class="flex flex-row flex-wrap justify-center items-start m-10 gap-10">
                 <ProjectMember
                     name="David Åsberg"
                     image="/img/team/david.png"
-                    badges={vec!["Graphics", "Interaction", "Game Design"]}
+                    badges={vec!["Graphics", "Interaction", "Game Design", "Networking", "Shaders", "Project Structure"]}
                     github="https://github.com/davidasberg"
                     linkedin="https://www.linkedin.com/in/david-aasberg/"
-                    description="I have worked on many areas of the project, but my main focus has been on the graphics and interaction. I have worked on the lighting, post-processing, and shaders. I have also worked on the interaction for each of the different controllers, and the networking to allow any mobile device to be used as a controller. I have also worked on the game design, and the overall structure of the project."
+                    description="I have worked on many areas of the project, but my main focus has been on the graphics and interaction. I have worked on the lighting, post-processing, and shaders. I have also worked on the interaction for each of the different controllers, and the networking to allow any mobile device to be used as a controller. Lastly, I have worked on the game design, and the overall structure of the project."
                 />
 
                 <ProjectMember
@@ -32,7 +30,7 @@ pub fn team() -> Html {
                 <ProjectMember
                     name="Gabriel Françon"
                     image="/img/team/gabriel.png"
-                    badges={vec!["Shader Dev", "Texturing", "Level Art"]}
+                    badges={vec!["Shader Dev", "Texturing", "Level Art", "Graphics", "Blender"]}
                     github="https://github.com/GabFrancon"
                     linkedin="https://www.linkedin.com/in/gabriel-francon/"
                     description="My primary focus was enhancing the visual aspects of our prototype. I implemented a versatile splat map-based shader to enable multi-texturing on the cube ground, and authored PBR ground textures. I also crafted a highly customizable shader for procedurally generating grass all around the cube, supporting wind animation and interactive effects with dynamic objects. To showcase these graphics improvements, I then set up the core scene layer, and further contributed to fine-tuning the scene's rendering alongside my colleagues. As a bonus, I prototyped a deformable snow shader for potential future integration."
@@ -41,7 +39,7 @@ pub fn team() -> Html {
                 <ProjectMember
                     name="Jean-Louis Werthe"
                     image="/img/team/jean-louis.png"
-                    badges={vec!["Blender", "Modeling", "Rigging"]}
+                    badges={vec!["Blender", "Modeling", "Graphics", "Animation"]}
                     description="I have acquired skills in Blender, including model creation, rigging, and animation. I have also developed a good understanding of Unity, enabling me to incorporate properties and implement control scripts on objects effectively. Furthermore, I have delved into how to effectively interface Unity with Blender, ensuring a smooth integration of Blender data."
                 />
 
@@ -85,7 +83,7 @@ fn project_member(props: &ProjectMemberProps) -> Html {
         .collect::<Html>();
 
     html! {
-        <div class="flex flex-col items-center gap-2 max-w-md place-self-center">
+        <div class="flex flex-col items-center gap-2 max-w-md ">
             <img class="object-cover rounded-full w-40 h-40" src={image} alt={name.clone()} />
             <p class="text-2xl font-bold">{name}</p>
             <div class="flex flex-row gap-2">
@@ -101,7 +99,7 @@ fn project_member(props: &ProjectMemberProps) -> Html {
                 })}
             </div>
 
-            <div class="flex flex-row flex-grow flex-wrap gap-2 justify-center jusitfy-evenly">
+            <div class="flex flex-row flex-grow flex-wrap gap-2 justify-center">
                 {badges}
             </div>
 
