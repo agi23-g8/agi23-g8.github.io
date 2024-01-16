@@ -30,10 +30,10 @@ pub fn team() -> Html {
                 <ProjectMember
                     name="Gabriel Françon"
                     image="/img/team/gabriel.png"
-                    badges={vec!["Shader Dev", "Texturing", "Level Art", "Graphics", "Blender"]}
+                    badges={vec!["Graphics", "Shader Dev", "Texturing", "Level Art", "Gameplay", "Blender"]}
                     github="https://github.com/GabFrancon"
                     linkedin="https://www.linkedin.com/in/gabriel-francon/"
-                    description="My primary focus was enhancing the visual aspects of our prototype. I implemented a versatile splat map-based shader to enable multi-texturing on the cube ground, and authored PBR ground textures. I also crafted a highly customizable shader for procedurally generating grass all around the cube, supporting wind animation and interactive effects with dynamic objects. To showcase these graphics improvements, I then set up the core scene layer, and further contributed to fine-tuning the scene's rendering alongside my colleagues. As a bonus, I prototyped a deformable snow shader for potential future integration."
+                    description="Focused on enhancing visual experiences, I crafted versatile custom shaders encompassing splat map-based ground texturing, procedural grass generation, and realistic snow deformation. Additionally, I handled terrain modeling and orchestrated the level art for both projects, effectively showcasing these shaders. In terms of gameplay, I engineered a physics-based skier controller and directed a path-based camera to ensure smooth multiplayer experience. My involvement extended to collaborative efforts in fine-tuning scene rendering and actively contributing to the documentation of our work on the website."
                 />
 
                 <ProjectMember
