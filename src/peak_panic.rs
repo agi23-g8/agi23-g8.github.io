@@ -35,9 +35,6 @@ pub fn peak_panic() -> Html {
         "img/peak_panic/users/pp_user_testing_7.jpg",
         "img/peak_panic/users/pp_user_testing_8.jpg",
         "img/peak_panic/users/pp_user_testing_9.jpg",
-        "img/peak_panic/users/pp_user_testing_10.jpg",
-        "img/peak_panic/users/pp_user_testing_11.jpg",
-        "img/peak_panic/users/pp_user_testing_12.jpg",
     ]
     .iter()
     .map(|s| s.to_string())
