@@ -143,11 +143,11 @@ pub fn cubes_traveller() -> Html {
                 <div class="break-inside-avoid-column">
                 <h2 class="text-2xl my-5 font-extrabold tracking-tight sm:text-3xl lg:text-5xl">{"Lessons Learned"}</h2>
                 <p class="text-xl my-3 text-justify max-w-prose tracking-tight">
-                    {"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
+                    {"In our development journey, placing an early emphasis on graphics became a cornerstone. By investing time at the outset to establish a robust foundation, encompassing a functional render pipeline, optimized 3D models, and a well-defined art direction, we positioned ourselves to push the boundaries of visual excellence. This strategic decision enabled us to dedicate a substantial portion of our development timeline towards meticulous polishing, resulting in a game that met our aspirations for visual appeal."}
                     <br/>
                     <br/>
 
-                    {"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
+                    {"Concerning game mechanics, we faced an ongoing challenge. Throughout development, we consistently deferred attention to the gameplay aspect, leaving it until the eleventh hour. Crafting intricate puzzles within a dynamic cubic environment demanded more time than we initially allocated. Consequently, due to time constraints, we streamlined the game objective to a more basic form. This experience underscores the critical importance of early clarification and simplification of gameplay ideas, recognizing that complexity can be incrementally introduced as time allows."}
                 </p>
                 </div>
             </div>
