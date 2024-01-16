@@ -146,9 +146,11 @@ pub fn peak_panic() -> Html {
                 <div class="break-inside-avoid-column">
                 <h2 class="text-2xl my-5 font-extrabold tracking-tight sm:text-3xl lg:text-5xl">{"Related work"}</h2>
                 <p class="text-xl my-3 text-justify max-w-prose tracking-tight">
-                    {"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
+                    {"Our project drew inspiration from SpeedRunners, a 2013 game by DoubleDutch Games. It featured multiplayer racing, with a single camera focused on the lead player. We aimed to adapt this into a 3D setting with the camera following skiers from behind."}
                     <br/>
-                    {"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
+                    {"Solomun Gumball, an indie creator, inspired us with their Twitch-documented downhill skiing game. We were drawn to the art direction, aerial camera management, slope design, and sliding animations, essential for an enjoyable virtual skiing experience."}
+                    <br/>
+                    {"Our visual goal focused on realistic snow rendering. Inspired by WB Games' deformable snow in Batman Arkham Origins and Guerrilla Games' work in Horizon's Frozen Wilds DLC, we adopted a similar approach, which involved rendering a deformation texture through an orthographic top-down camera for dynamic tessellation and vertex displacement on the snow-covered terrain mesh."}
                 </p>
                 </div>
 
