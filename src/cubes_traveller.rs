@@ -66,7 +66,7 @@ pub fn cubes_traveller() -> Html {
 
             // Making Of
             <div class="w-full my-10">
-                <iframe class="w-full" height="720" src="https://www.youtube.com/embed/ubhU8viXvQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=true></iframe>
+                <iframe class="w-full" height="720" src="https://www.youtube.com/embed/RiNYSEQuXiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=true></iframe>
             </div>
 
             // Text about the game
