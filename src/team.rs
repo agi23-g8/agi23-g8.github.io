@@ -46,10 +46,10 @@ pub fn team() -> Html {
                 <ProjectMember
                     name="Jérémy Carneau"
                     image="/img/team/jeremy.jpg"
-                    badges={vec!["Interaction", "Game Design", "Organisation"]}
+                    badges={vec!["Gameplay", "Game Design", "Modeling", "Interaction"]}
                     github="https://github.com/Jeremy-Carneau"
                     linkedin="https://linkedin.com/in/jeremy-carneau"
-                    description="I contributed modestly to several aspects of the project. My main role was to manage the agile methods used to organize tasks throughout the project. I also contributed to the development of the game's interaction system. In addition, I took part in the creation of puzzles in the game, which should have taken place in another level of the game."
+                    description="I contributed modestly to several aspects of the projects. I contributed to the development of the first versions of Cube's Traveller's interaction system, which managed the cube's rotation using the phone's gyroscope. I also started working on puzzles for a future level that never saw the light of day. I also concentrated on the gameplay of Peak Panic, adding elements such as boosts and snow cannons to bring the race to life."
                 />
             </div>
         </>
