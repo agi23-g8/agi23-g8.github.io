@@ -128,11 +128,15 @@ pub fn cubes_traveller() -> Html {
                 <div class="break-inside-avoid-column">
                 <h2 class="text-2xl my-5 font-extrabold tracking-tight sm:text-3xl lg:text-5xl">{"Related work"}</h2>
                 <p class="text-xl my-3 text-justify max-w-prose tracking-tight">
-                    {"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
+                    {"Our cozy cooperative game draws inspiration from diverse sources, each contributing unique elements to our project. Fez (2012) captivates us with its voxel design and artistic direction, influencing our visual aesthetics. The game's clever manipulation of camera perspectives to impact mechanics has inspired our approach to interactive gameplay."}
                     <br/>
                     <br/>
-
-                    {"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
+        
+                    {"In the realm of cube-based environments, Moncage (2021) serves as a significant influence. Within its mysterious cube, distinct worlds reside on each side. Aligning these worlds through precise camera placement unlocks new game mechanics and offers stunning visuals. Moncage's innovative use of the cube concept resonates with our vision for an engaging and dynamic game environment."}
+                    <br/>
+                    <br/>
+        
+                    {"Adding an interactive dimension to our project is the Merge Cube, originally developed for educational purposes. This physical cube can be hand-manipulated in all directions, influencing the virtual scene projected onto it through augmented reality via a phone screen. The Merge Cube's fusion of the physical and virtual worlds has inspired our phone-based cube gameplay mechanics."}
                 </p>
                 </div>
 
