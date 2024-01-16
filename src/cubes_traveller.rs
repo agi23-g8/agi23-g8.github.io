@@ -24,18 +24,18 @@ pub fn cubes_traveller() -> Html {
     .collect::<Vec<String>>();
 
     let user_images = vec![
-        "img/cubes_traveller/users/ct_user_testing_1.png",
-        "img/cubes_traveller/users/ct_user_testing_2.png",
-        "img/cubes_traveller/users/ct_user_testing_3.png",
-        "img/cubes_traveller/users/ct_user_testing_4.png",
-        "img/cubes_traveller/users/ct_user_testing_5.png",
-        "img/cubes_traveller/users/ct_user_testing_6.png",
-        "img/cubes_traveller/users/ct_user_testing_7.png",
-        "img/cubes_traveller/users/ct_user_testing_8.png",
-        "img/cubes_traveller/users/ct_user_testing_9.png",
-        "img/cubes_traveller/users/ct_user_testing_10.png",
-        "img/cubes_traveller/users/ct_user_testing_11.png",
-        "img/cubes_traveller/users/ct_user_testing_12.png",
+        "img/cubes_traveller/users/ct_user_testing_1.jpg",
+        "img/cubes_traveller/users/ct_user_testing_2.jpg",
+        "img/cubes_traveller/users/ct_user_testing_3.jpg",
+        "img/cubes_traveller/users/ct_user_testing_4.jpg",
+        "img/cubes_traveller/users/ct_user_testing_5.jpg",
+        "img/cubes_traveller/users/ct_user_testing_6.jpg",
+        "img/cubes_traveller/users/ct_user_testing_7.jpg",
+        "img/cubes_traveller/users/ct_user_testing_8.jpg",
+        "img/cubes_traveller/users/ct_user_testing_9.jpg",
+        "img/cubes_traveller/users/ct_user_testing_10.jpg",
+        "img/cubes_traveller/users/ct_user_testing_11.jpg",
+        "img/cubes_traveller/users/ct_user_testing_12.jpg",
     ]
     .iter()
     .map(|x| x.to_string())
