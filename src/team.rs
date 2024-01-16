@@ -21,10 +21,10 @@ pub fn team() -> Html {
                 <ProjectMember
                     name="Anders Blomqvist"
                     image="/img/team/anders.png"
-                    badges={vec!["Graphics", "Blender", "Github", "Level Design", "UI Design", "Networking", "Modeling", "Gameplay"]}
+                    badges={vec!["Graphics", "Github", "Level Design", "UI Design", "Networking", "Modeling", "Game Design"]}
                     github="https://github.com/andersblomqvist"
                     linkedin="https://www.linkedin.com/in/anders-blomqvist-9b7958143/"
-                    description="I contributed to various aspects of the project, but my primary focus was on graphics and 3D modeling. In the project's early stages, I established a GitHub workflow and created the initial gameplay iteration. I also developed the sky shader, including the day and night cycle, and created most of our 3D models. Additionally, I have made sure that our game looks good from a visual standpoint where I provided feedback to colleagues and parameter tuning."
+                    description="For Cube's Traveller, I contributed to various aspects of the project, but my primary focus was on graphics and 3D modeling. In the project's early stages, I established a GitHub workflow and created the initial gameplay iteration. I also developed the sky shader, including the day and night cycle, and created most of our 3D models. Additionally, I have made sure that our game looks good from a visual standpoint where I provided feedback to colleagues and parameter tuning.\n\nFor Peak Panic, I was involved in many different parts of our project. I began with creating the first prototype which showcased the idea of controlling a player with the accelerometer. From this, I suggested a skiing game in which we could reuse some assets from our previous project. My focus was implementing the WebGL client but also 3D modeling together with designing the level. I created all models except two, the player character and the snow canon. In the later stages of the project, I closed the gameplay loop and provided feedback on our camera system. Additionally, I spent some time making nice graphics and a title screen – making the project feel complete."
                 />
 
                 <ProjectMember
